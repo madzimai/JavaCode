@@ -10,6 +10,10 @@ public class Main {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
+
+            int [] arr = {1, 2, 3, 4, };
+            int [] arr2 = {2, 3, 1,0};
+            System.out.println(arr [(arr=arr2)[3]]);
         }
     }
 }
